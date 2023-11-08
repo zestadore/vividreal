@@ -9,7 +9,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="{{asset('admin/image/png')}}" sizes="16x16" href="./images/favicon.png">
     <link href="{{asset('admin/css/style.css')}}" rel="stylesheet">
-
+    @yield('styles')
 </head>
 
 <body>
@@ -39,7 +39,6 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © <a href="#" target="_blank">Kerala Luxury Tempo Travellers</a> | Designed &amp; Developed by <a href="#" target="_blank">Zestadore IT Solutions</a> {{date('Y')}}</p>
             </div>
         </div>
         <!--**********************************
