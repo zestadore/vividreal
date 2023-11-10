@@ -68,7 +68,14 @@
                     <li><a href="{{route('companies.index')}}">List</a></li>
                     <li><a href="{{route('companies.create')}}">Create</a></li>
                 </ul>
+            </li><li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
+                class="icon icon-app-store"></i><span class="nav-text">Employees</span></a>
+                <ul aria-expanded="false">
+                    <li><a href="{{route('employees.index')}}">List</a></li>
+                    <li><a href="{{route('employees.create')}}">Create</a></li>
+                </ul>
             </li>
+            
         </ul>
     </div>
 </div>
